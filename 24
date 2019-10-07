@@ -1,0 +1,5 @@
+x1 = 3
+y1 = 2
+x2 = 5
+y2 = 6
+puts Math.hypot((x2 - x1),(y2 - y1))
