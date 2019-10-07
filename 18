@@ -1,0 +1,8 @@
+A = 0.785
+B = 1.047
+C = 1.308
+r = 10
+a = 2 * r * Math.sin(A)
+b = 2 * r * Math.sin(B)
+c = 2 * r * Math.sin(C)
+puts "a = %.2f; b = %.2f; c = %.2f;" % [a, b, c]
