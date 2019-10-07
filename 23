@@ -1,0 +1,16 @@
+a = 3
+b = 5
+c = 7
+p = (a + b + c) / 2
+S = (Math.sqrt((a + b + c) * (b + c - a) * (a + c - b) * (a + b - c))) / 4 
+h1 = (2 * S) / a
+h2 = (2 * S) / b
+h3 = (2 * S) / c   
+puts "h1= %.2f; h2= %.2f; h3= %.2f; " % [h1, h2, h3]
+m1 = (Math.sqrt(2 * a**2 + 2 * b**2 - c**2)) / 2
+m2 = (Math.sqrt(2 * b**2 + 2 * c**2 - a**2)) / 2
+m3 = (Math.sqrt(2 * a**2 + 2 * c**2 - b**2)) / 2
+puts "m1= %.2f; m2= %.2f; m3= %.2f; " % [m1, m2, m3]
+r = S / p
+R = (a * b * c) / (4 * S)
+puts "r= %.2f; R= %.2f;" % [r, R]
