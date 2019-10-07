@@ -1,0 +1,13 @@
+puts "A(-5;-4) B(3;6) C(3;1)"
+x1 = -5
+x2 = 3
+x3 = 3
+y1 = -4
+y2 = 6
+y3 = 1
+AB = Math.hypot((3 - (-5)),(6 - (-4)))
+BC = Math.hypot((3 - 3),(1 - 6))
+AC = Math.hypot((3 - (-5)),(1 - (-4)))
+P = AB + BC + AC
+S = (((x1 * y2 + x2 * y3 + x3 * y1) - (y1 * x2 + y2 * x3 + y3 * x1)) / 2).abs
+puts "P= %.2f; S= %.2f;" % [P, S]
