@@ -1,0 +1,5 @@
+c = 10 
+a = 6 
+b = Math.sqrt(c**2 - a**2)
+r = (a + b - c) / 2
+puts "b= %.2f; r= %.2f;" % [b, r]
