@@ -1,0 +1,6 @@
+a = 6
+b = 3
+Ak = 0.785
+h = ((a - b) / 2) * Math.tan(Ak)
+S = ((a + b) / 2) * h
+puts "S= %.2f;" % [S]
