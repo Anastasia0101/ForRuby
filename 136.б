@@ -1,0 +1,6 @@
+n = 5
+summa = 1
+for c in 1..n
+    summa *= c
+end
+puts summa
