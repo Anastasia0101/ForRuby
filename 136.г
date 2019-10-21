@@ -1,0 +1,6 @@
+n = -5
+mul = 1
+for c in n..-1 do
+    mul *= c.abs
+end
+puts mul
