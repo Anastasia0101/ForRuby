@@ -1,0 +1,7 @@
+n = 5
+sum = 0
+for i in 1..n do
+    sum += i
+end
+mul = 2 * (sum)**2
+puts mul
