@@ -1,0 +1,2 @@
+array = (1..70).to_a
+puts array[1..71] , array[0]
