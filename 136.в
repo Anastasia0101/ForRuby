@@ -1,0 +1,6 @@
+n = -5
+summa = 0
+for c in n..-1 do
+    summa += c.abs
+end
+puts summa
