@@ -1,0 +1,6 @@
+n = 5
+sum = 1
+for i in 1..n do
+    sum += (Math.sqrt(i.abs) - i)**2
+end
+puts sum
