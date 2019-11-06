@@ -1,0 +1,3 @@
+arr = "hello x world x ! x"
+arr.scan("x")
+puts arr.scan("x").size
