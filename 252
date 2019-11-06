@@ -1,0 +1,4 @@
+arr = "he*llo + wor*ld + *+ +"
+puts "+ = #{arr.scan("+").size}"
+puts "* = #{arr.scan("*").size}"
+puts arr.scan("+").size + arr.scan("*").size
