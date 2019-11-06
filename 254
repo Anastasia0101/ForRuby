@@ -1,0 +1,2 @@
+arr = ",-+-.!,,-,-"
+puts arr.scan(",-").size
