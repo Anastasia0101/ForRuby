@@ -1,0 +1,2 @@
+arr = "* ! child! 473 child + + ., child"
+puts arr.gsub(/child/,"children")
