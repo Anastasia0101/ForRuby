@@ -1,0 +1,3 @@
+arr = "* ! abc abc abc aba aba "
+puts arr.scan("abc").size
+puts arr.scan("aba").size
