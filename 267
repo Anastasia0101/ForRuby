@@ -1,0 +1,4 @@
+arr = "* :: !!a:!*)*"
+a = (arr.size) / 2
+puts arr[0..a].gsub(/:/,",")
+puts arr[a..arr.size].gsub(/!/,".")
