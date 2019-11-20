@@ -1,0 +1,10 @@
+n = 5
+mul = 1.0
+a = [1, 4, 5, 0.5, 6, 7]
+for i in 0..n do
+	if i + 1 < a[i] && a[i] < ((1..i).inject(:*) || 1) 
+		mul *= a[i] 
+		puts a[i]
+	end	
+end	
+puts "Mul = #{1.0 / mul}"
