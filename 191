@@ -1,0 +1,11 @@
+n = 6
+b = 0
+a = [1, 8, 9, 4, 10, -6, 7]
+for i in 0..n do
+	if a[i] > 7 
+   		a[i] = 7
+   		b = b + 1
+   	end	
+   	puts a[i]
+end	
+puts "Number > 7 = %.2f;" % [b]
