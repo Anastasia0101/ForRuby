@@ -1,0 +1,15 @@
+n = 15
+sum = 0
+res = 0
+a = Array.new(n) {rand(1..n)}
+puts "#{a}" 
+for i in 0..n-1 do
+	sum += a[i]
+end
+ares = (1.0 / 15.0) * sum
+puts "ares = %.2f;" % [ares]
+for i in 0..n-1 do 
+	res += (a[i] - ares)**2
+end
+result = Math.sqrt(res / 14.0)
+puts "Result = %.2f;" % [result]
