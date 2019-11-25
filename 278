@@ -1,0 +1,14 @@
+j = 20
+sum = 0
+summa = 0
+n = Array.new(j) {rand(1..j)}
+x = Array.new(j) {rand(1..j)}
+puts "#{n}"
+puts "#{x}"
+for i in 0..j-1 do
+	summa += n[i] * x[i]
+end
+for i in 0..j-1 do 
+	sum += n[i]
+end
+puts "Result = #{summa / sum}"
