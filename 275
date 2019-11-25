@@ -1,0 +1,10 @@
+n = 10
+sum = 0
+x = Array.new(n) {rand(1..n)}
+y = Array.new(n) {rand(1..n)}
+puts "#{x}"
+puts "#{y}" 
+for i in 0..n-1 do
+	sum += x[i] * y[i]
+end
+puts "Summa = %.2f;" % [sum]
